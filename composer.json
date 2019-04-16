@@ -1,0 +1,21 @@
+{
+    "name": "alexselenga/yii2-wysiwyg-example-widget",
+    "description": "The example widget over vova07 over imperavi redactor widget for Yii 2 framework.",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+		"vova07/yii2-imperavi-widget": "*"
+    },
+    "autoload": {
+        "psr-4": {
+			"alexselenga\\exampleWidget": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
